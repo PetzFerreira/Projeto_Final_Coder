@@ -1,5 +1,4 @@
-# Projeto de conclusão de curso - Python (Coder House)
-Pipeline de manipulação de dados
+# Projeto de conclusão de curso - Pipeline de manipulação de dados
 
 ## Descrição
 
@@ -21,16 +20,16 @@ Alertas: Um sistema de alerta notifica falhas no processo de extração utilizan
 
 * Após clonagem, realizar sequência de etapas de preparo:
    
-   - Criação de ambiente virtual de desenvolvimento >
+   - Criação de ambiente virtual de desenvolvimento
 
-   <Windows>
+   Windows
 
    ```sh
    python -m venv venv
    venv\Scripts\activate
    ```
 
-   <Linux, macOS>
+   Linux, macOS
 
    ```sh
    python -m venv venv
@@ -47,13 +46,13 @@ Alertas: Um sistema de alerta notifica falhas no processo de extração utilizan
 Abra o arquivo editor nomeado como `main_pipeline.ipynb` e execute as células para visualização dos execuções.
 A estrutura das células está montada de forma linear, para que a execução célula a célula retorne todas as funcionalidades corretamente.
 
-### Disposição da Pipeline
+## Disposição da Pipeline
 
-1 - Importação de bibliotecas
-2 - Criação de Funções Úteis
-3 - Extração e Manipulação -'Banks'
-4 - Extração e Manipulação 'ddd'
-5 - Extração e Manipulação 'Feriados Nacionais'
-6 - Criação de arquivos de extensão csv a partir de Dataframes
-7 - Alimentação de database com as tabelas criadas
-8 - Reconexão com database para confirmação de dados salvos
+1. *Importação de bibliotecas*
+2. *Criação de Funções Úteis*
+3. *Extração e Manipulação -'Banks'*
+4. *Extração e Manipulação 'ddd'*
+5. *Extração e Manipulação 'Feriados* Nacionais'
+6. *Criação de arquivos de extensão csv a partir de Dataframes*
+7. *Alimentação de database com as tabelas criadas*
+8. *Reconexão com database para confirmação de dados salvos*
